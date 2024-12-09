@@ -1,7 +1,7 @@
 /* styles.css */
 body {
   font-family: 'Press Start 2P', sans-serif;
-  overflow-y: hidden;
+  overflow-x: hidden;
   background: #1e5f24 url('https://wallpapercave.com/wp/wp2763321.png') center/cover no-repeat;
   color: #fff;
   position: relative;
@@ -27,6 +27,7 @@ body::before {
 .container {
   max-width: 600px;
   margin: 50px auto;
+  
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 10px;
