@@ -1,7 +1,7 @@
 /* styles.css */
 body {
   font-family: 'Press Start 2P', sans-serif;
-
+  overflow-y: hidden;
   background: #1e5f24 url('https://wallpapercave.com/wp/wp2763321.png') center/cover no-repeat;
   color: #fff;
   position: relative;
