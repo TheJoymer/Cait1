@@ -14,6 +14,10 @@ header {
 main {
         overflow-x: hidden; /* Запрещает горизонтальную прокрутку */
 }
+.img4 {
+
+        overflow-x: hidden; /* Запрещает горизонтальную прокрутку */
+}
 .notification {
     position: fixed;
     bottom: 0;
