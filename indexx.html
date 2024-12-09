@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="indexx.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная корзина с фильтром</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        
+        <h1>Магазин мерча </h1>
+        <div class="stick">
+            <div class="TEMN"></div>
+            <input type="checkbox" id="menu-toggle">
+            <label class="KNOPKA" for="menu-toggle">Меню</label>
+            <aside>
+                <a class="link" href="index1.html" style="text-decoration: none;"> <br>  <div class="Ttext"> Главная страница</div> </br>  </a>
+                <a class="link" href="ViborSTR.html" style="text-decoration: none;">   <br><div class="Ttext"> Версии игры</div> </br>  </a>
+                <a class="link" href="indexForm.html" style="text-decoration: none;"><br> <div class="Ttext">   Регистрация на фест </div></br>  </a>
+                <a class="link" href="FAN.html" style="text-decoration: none;"><br> <div class="Ttext">  Фанатское творчество</div> </br>  </a>
+                <a class="link" href="indexx.html" style="text-decoration: none;"><br> <div class="Ttext">   Магазин </div> </br>  </a>
+     
+     
+            </aside>
+    </header>
+    <div class="CHILD">
+    <div class="sidebar">
+        <h2>Доступные товары</h2>
+        <div class="buttons">
+            <button onclick="sortProducts('asc')">Сортировать ↑</button>
+            <button onclick="sortProducts('desc')">Сортировать ↓</button>
+        </div>
+        <div class="filter-inputs">
+            <h3>Фильтр по цене</h3>
+            <label>
+                Нижняя граница:
+                <br>
+                <input type="number" id="lowerBound" value="0">
+            </label>
+            <br></br>
+            <label>
+                Верхняя граница:
+                <br>
+                <input type="number" id="upperBound" value="1000">
+            </label>
+            <button onclick="applyFilter()">Применить фильтр</button>
+        </div>
+        <ul class="item-list" id="productList"></ul>
+    </div>
+    <div class="main">
+        <h1>Корзина</h1>
+        <div class="cart" id="cart"></div>
+        <div class="summary">
+            <strong>Итоговая стоимость:</strong> <span id="totalPrice">0</span> руб.
+            <button class="purchase-button" onclick="purchaseItems()">Купить</button>
+        </div>
+        
+    </div>
+    <script src="indexx.js"></script>
+</div>
+</body>
+
+<footer>
+    <div class="footer-section">
+      <h3>О команде</h3>
+      <p>Мы — команда "Minecraft Creators". Разрабатываем уникальные проекты, делимся полезными советами и создаём сообщество увлечённых игроков Minecraft.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Контакты</h3>
+      <p>Телефон: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      <a href="#">FAQ</a>
+      <a href="#">О нас</a>
+      <a href="#">Партнёрская программа</a>
+      <a href="#">Политика конфиденциальности</a>
+    </div>
+    <div class="footer-section social-icons">
+      <h3>Подписывайтесь на нас</h3>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+  </div>
+</html>
