@@ -27,7 +27,7 @@ body::before {
 .container {
   max-width: 600px;
   margin: 50px auto;
-  
+  overflow-x: hidden;
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 10px;
