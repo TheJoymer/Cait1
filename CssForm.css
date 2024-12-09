@@ -1,11 +1,10 @@
 /* styles.css */
-* {
-
-
+body {
+  overflow-x:hidden;
 }
 body {
   font-family: 'Press Start 2P', sans-serif;
-  overflow-x: hidden;
+
   background: #1e5f24 url('https://wallpapercave.com/wp/wp2763321.png') center/cover no-repeat;
   color: #fff;
   position: relative;
@@ -27,11 +26,13 @@ body::before {
   background-position: center;
 
 }
+html {
+  overflow-x: hidden;
+}
 
 .container {
   max-width: 600px;
   margin: 50px auto;
-  overflow-x: hidden;
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 10px;
@@ -261,7 +262,8 @@ header::before {
   .PEREK {
       display: inline-block;
       padding: 25px 10px;
-      transform: translateY(65px);
+      transform: translateY(-16vw) translateX(-20px);
+
       background-color: #ab6a59;
       color: white;
       cursor: pointer;
