@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -466,7 +465,8 @@ footer .social-icons a {
     label {
         display: inline-block;
         padding: 25px 10px;
-        transform: translateY(0);
+        transform: translateY(0) ;
+
         background-color: #ab6a59;
         color: white;
         cursor: pointer;
@@ -526,7 +526,7 @@ footer .social-icons a {
     label {
         display: inline-block;
         padding: 25px 10px;
-        transform: translateY(65px);
+        transform: translateY(5px) translateX(-20px);
         background-color: #ab6a59;
         color: white;
         cursor: pointer;
