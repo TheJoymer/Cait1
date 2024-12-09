@@ -1,4 +1,8 @@
 /* styles.css */
+* {
+  overflow: hidden;
+
+}
 body {
   font-family: 'Press Start 2P', sans-serif;
   overflow-x: hidden;
