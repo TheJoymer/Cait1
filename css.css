@@ -8,7 +8,12 @@
     cursor: url(https://steamuserimages-a.akamaihd.net/ugc/764973415224935183/DDF51C57E33BA65E84D938583E1B5A14CD463097/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true), auto ;
 }
 
-
+header {
+        overflow-x: hidden; 
+}
+main {
+        overflow-x: hidden; /* Запрещает горизонтальную прокрутку */
+}
 .notification {
     position: fixed;
     bottom: 0;
