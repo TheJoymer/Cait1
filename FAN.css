@@ -147,7 +147,7 @@ aside {
         }
         @media (max-width: 630px) {
              .text-container {
-                height: 70%;
+                height: 75%;
              }
         }
         .container.reverse {
