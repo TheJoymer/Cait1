@@ -1,12 +1,11 @@
-* {
-  overflow: hidden;
-
+body {
+    overflow-x:hidden;
 }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     
-    overflow-x: hidden; 
+    
 
 }
 .CHILD {
@@ -378,6 +377,8 @@ footer .social-icons a {
 }
 .KNOPKA {
     display: none;
+    font-family: 'Press Start 2P', sans-serif;
+
     padding: 25px 10px;
     transform: translateY(-225px);
     background-color: #ab6a59;
@@ -441,9 +442,11 @@ aside {
 }  
 
 header {
-    padding: 20px;
+    padding: 30px -10px 30px 30px;
     padding-bottom: 120px;
     width: 100%;
+        overflow-x:hidden;
+
     position: relative;
     z-index: 100;
     color: #f0e68c;
@@ -542,7 +545,7 @@ header::before {
     .KNOPKA {
         display: inline-block;
         padding: 25px 10px;
-        transform: translateY(-16vw) translateX(-20px);
+        transform: translateY(-16vw) translateX(0px);
 
         background-color: #ab6a59;
         color: white;
