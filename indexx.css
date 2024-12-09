@@ -445,7 +445,7 @@ header {
     padding: 30px -10px 30px 30px;
     padding-bottom: 120px;
     width: 100%;
-        overflow-x:hidden;
+        overflow:hidden;
 
     position: relative;
     z-index: 100;
