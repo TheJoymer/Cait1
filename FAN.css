@@ -145,7 +145,11 @@ aside {
             z-index: -1;
             background:rgba(0, 0, 0, 0.7);
         }
- 
+        @media (max-width: 630px) {
+             .text-container {
+                height: 60%;
+             }
+        }
         .container.reverse {
             flex-direction: column-reverse;
         }
