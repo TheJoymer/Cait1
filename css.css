@@ -766,6 +766,7 @@ article {
     }
     .stick {
         transform: translateY(-80px);
+        position: fixed;
     }
 }
 @media (max-width: 980px){
@@ -871,7 +872,7 @@ margin-top: 35vw;
 
     .stick {
         position: fixed;
-
+        
 
         
     }
