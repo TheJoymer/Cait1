@@ -43,10 +43,13 @@ body {
 .main::before {
     content: "";
     position: absolute;
-    top: 0px;
-    left: 50px;
+
+    bottom:-400px;
+    right: 0px;
+
     width: 110%;
-    height: 175vh;    background-image: url(https://i.ytimg.com/vi/hjGEqVRFyc4/maxresdefault.jpg);
+    height: 150%;   
+     background-image: url(https://i.ytimg.com/vi/hjGEqVRFyc4/maxresdefault.jpg);
     background-size: cover;
     background-position: var(--bg-x, -50%); /* Используем обе переменные */
     filter: blur(10px); /* Размытие */
