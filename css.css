@@ -439,6 +439,9 @@ article:nth-of-type(6)::before {
     .Topicmain {
         margin: 7px;
     }
+    #Topic1 {
+        font-size: 7vw;
+    }
     .Topicmain h3 {
         font-size: 1.2rem;
         margin: 5px;
